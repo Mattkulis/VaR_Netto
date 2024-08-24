@@ -152,7 +152,7 @@ if 'first_run' not in st.session_state or st.session_state['first_run']:
     calculate_and_display_var(default_tickers, default_start_date, default_end_date, default_rolling_window, default_confidence_level, default_portfolio_val)
 
 
-
+ 
 # Display Results on Button Click
 if calculate_btn:
     calculate_and_display_var(tickers, start_date, end_date, rolling_window, confidence_level, portfolio_val)
